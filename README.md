@@ -1,0 +1,2 @@
+# Parallel-Processing-using-MPI
+Given a file contains ids and grades master process : - Read data from file - Divide the students list by the number of processes you have then send it to them. - Print the summation of the number of passed students received from each process. For each process - Receive part of students data - Check if they passed or not and print message for each student &lt;Student ID> Passed The Exam &lt;Student ID> Failed. Please Repeat The Exam - Calculate number of passed student then send it to master process
